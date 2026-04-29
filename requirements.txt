@@ -1,0 +1,7 @@
+numpy>=1.21.6
+pyserial>=3.5
+readchar>=4.0.3
+tqdm>=4.64.1
+pytest>=7.0.1
+Pillow>=10.4.0; python_version < "3.14"
+Pillow>=11.2.1; python_version >= "3.14"

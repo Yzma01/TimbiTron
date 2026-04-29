@@ -1,0 +1,56 @@
+Using serial port: /dev/ttyUSB1
+Opening ESP32 serial port /dev/ttyUSB1 @ 115200 baud...
+  [esp32] BrachioGraph ESP32 firmware v2 (serial + ACK)
+  [esp32] pins s1=27 s2=33 pen=32
+  [esp32] pw range 500..2500
+Connected to ESP32 on /dev/ttyUSB1
+[esp32] no ack for {'s1': 1689, 's2': 1493} within 0.5s. The ESP32 may be running the old firmware, or a servo brownout reset it. Further ack timeouts will be silent.
+------------------------------------------
+                      | Servo 1 | Servo 2 
+----------------------|---------|---------
+          pulse-width |    1689 |    1493
+                angle |     -90 |      90
+hysteresis correction |     0.0 |     0.0
+------------------------------------------
+         x/y location |    -8.0 |     8.0
+
+------------------------------------------
+pen: up
+------------------------------------------
+left: -8, right: 8, top: 13, bottom: 4
+------------------------------------------
+wait: 0.01 seconds
+------------------------------------------
+resolution: 0.1 cm
+------------------------------------------
+angular step: 0.1˚
+------------------------------------------
+BrachioGraph backend ready
+Using serial port: /dev/ttyUSB0
+Opening ESP32 serial port /dev/ttyUSB0 @ 115200 baud...
+  [esp32] BrachioGraph ESP32 firmware v2 (serial + ACK)
+  [esp32] pins s1=27 s2=33 pen=32
+  [esp32] pw range 500..2500
+Connected to ESP32 on /dev/ttyUSB0
+[esp32] no ack for {'s1': 1689, 's2': 1493} within 0.5s. The ESP32 may be running the old firmware, or a servo brownout reset it. Further ack timeouts will be silent.
+------------------------------------------
+                      | Servo 1 | Servo 2 
+----------------------|---------|---------
+          pulse-width |    1689 |    1493
+                angle |     -90 |      90
+hysteresis correction |     0.0 |     0.0
+------------------------------------------
+         x/y location |    -8.0 |     8.0
+
+------------------------------------------
+pen: up
+------------------------------------------
+left: -8, right: 8, top: 13, bottom: 4
+------------------------------------------
+wait: 0.01 seconds
+------------------------------------------
+resolution: 0.1 cm
+------------------------------------------
+angular step: 0.1˚
+------------------------------------------
+BrachioGraph backend ready
