@@ -16,9 +16,9 @@ const char* WIFI_PASSWORD = "susanaselomama27";
 
 const uint16_t SERVER_PORT = 8888;
 
-const int SERVO1_PIN = 27;
-const int SERVO2_PIN = 33;
-const int SERVO3_PIN = 32;
+const int SERVO1_PIN = 4;
+const int SERVO2_PIN =5;
+const int SERVO3_PIN = 18;
 
 const int SERVO_MIN_US = 500;
 const int SERVO_MAX_US = 2500;
