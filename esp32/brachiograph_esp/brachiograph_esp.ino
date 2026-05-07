@@ -39,8 +39,8 @@
 //   AVOID strapping pins on the ESP32: 0, 2, 5, 12, 15.
 //   AVOID input-only pins 34, 35, 36, 39 (they can't drive a servo line).
 // ---------------------------------------------------------------------------
-const int SERVO1_PIN = 27;   // shoulder
-const int SERVO2_PIN = 33;   // elbow
+const int SERVO1_PIN = 4;   // shoulder
+const int SERVO2_PIN = 5;   // elbow
 const int SERVO3_PIN = 32;   // pen
 
 const int SERVO_MIN_US = 500;
